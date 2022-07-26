@@ -1,0 +1,172 @@
+body {
+  color: white;
+  font-family: 'Mulish';
+  padding: 0;
+  margin: 0;
+  background-color: #15161B;
+  font-weight: bolder;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.logo h2 {
+  color: white;
+  font-size: 100px;
+}
+
+.logo span {
+  color: orangered;
+  font-family: 'Splash';
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.section-1 figure img {
+  width: 460px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, .5);
+}
+
+.section-1 .area-title h3 {
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+.section-1 .area-title h1 {
+  color: #FFFFFF;
+  font-size: 45px;
+  line-height: 50px;
+  margin-top: -18px;
+}
+
+.section-1 .area-title .btn-quero-participar {
+  display: inline-block;
+  background: orangered;
+  border-radius: 10PX;
+  padding: 10px 60px;
+  margin-top: 25px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.section-1 .area-title .btn-quero-participar:hover {
+  box-shadow: 1px 1px 10px white;
+  transition: 1s all;
+}
+
+.section-2 {
+  margin-top: 200px;
+}
+
+.section-2 .cards {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.section-2 figure img {
+  background-color: #26272e;
+  border-radius: 10px;
+  width: 60px;
+  padding: 80px;
+}
+
+.section-2 h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.section-2 img {
+  display: flex;
+  column-count: auto;
+}
+
+.section-2 figure h2 {
+  font-size: 20px;
+  margin-top: -80px;
+}
+
+.section-2 figure img:hover {
+  background-color: orangered;
+  box-shadow: 1px 1px 10px white;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.section-3 {
+  background-color: orangered;
+  margin-top: 200px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-3 figure img {
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, .5);
+}
+
+.section-3 h2 {
+  font-size: 40px;
+}
+
+.section-3 h3 {
+  font-size: 30px;
+}
+
+.section-3 .area-title .btn-quero-adquirir {
+  display: inline-block;
+  background: white;
+  border-radius: 10PX;
+  padding: 10px 60px;
+  margin-top: 25px;
+  color: orangered;
+  font-size: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.section-3 .area-title .btn-quero-adquirir:hover {
+  box-shadow: 1px 1px 10px white;
+  transition: 1s all;
+}
+
+footer {
+  margin-top: 200px;
+  text-align: center;
+}
+
+footer figure {
+  margin-top: -10px;
+  display: inline-flex;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer figure img {
+  width: 80px;
+  height: auto;
+}
+
+footer figure img:hover {
+  width: 85px;
+  filter: drop-shadow(1px 1px 10px white);
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
